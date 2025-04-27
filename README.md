@@ -39,6 +39,13 @@ Paper: [Link](https://arxiv.org/pdf/2404.02332)
 * Demonstrated better generalization on unseen material classes using geometry-informed graph design.
 * Highlighted the benefits of structure-aware modeling in nuclear material science applications.
 
+## Visualizations
+
+1. Embedded nuclear isotope chart
+
+![Chart of the nuclear isotopes embedded in the latent space of the encoding modules](isotope_chart.png)
+
+
 Notes
 This work was completed as part of a scientific research collaboration.
 
