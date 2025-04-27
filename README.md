@@ -10,7 +10,7 @@ Paper: [Link](https://arxiv.org/pdf/2404.02332)
 
 ## System Overview
 
-![alt text](image_url_or_path)
+![alt text](overview.jpg)
 
 
 ## My Contributions
