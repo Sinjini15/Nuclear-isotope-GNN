@@ -8,6 +8,11 @@ Due to the proprietary nature of the dataset and collaboration agreements, the f
 
 Paper: [Link](https://arxiv.org/pdf/2404.02332)
 
+## System Overview
+
+![alt text](image_url_or_path)
+
+
 ## My Contributions
 
 * Designed custom GNN architectures incorporating physical knowledge into graph structures.
