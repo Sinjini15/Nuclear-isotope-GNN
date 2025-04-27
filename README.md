@@ -39,14 +39,29 @@ Paper: [Link](https://arxiv.org/pdf/2404.02332)
 * Demonstrated better generalization on unseen material classes using geometry-informed graph design.
 * Highlighted the benefits of structure-aware modeling in nuclear material science applications.
 
-## Visualizations
+## Results
 
-1. Embedded nuclear isotope chart
+1. Step 1 outcome: Below is the visualization of the embeded cross sections in the latent space of the encoding modules
 
 ![Chart of the nuclear isotopes embedded in the latent space of the encoding modules](isotope_chart.png)
 
+2. Step 2 outcome:
 
-Notes
+* Reconstruction performance on test set (necessary to learn the underlying geometric dependencies)
+
+  ![Reconstructed cross sections from the test set](predictions.png)
+
+* Uncertainty propagation for selected nucleus - a visualization of how perturbations at one point propagates to its neighbours
+
+  ![Uncertainty propagation](uncertainty.png)
+
+* Completing the chart - an important downstream task where the trained GNN is used to fill in missing isotope points
+
+  ![Training strategy shows attention style masking (sections of the chart are masked in black for each epoch)](masking.png)
+  ![Final prediction where the chart is more "complete"](completed_chart.png)
+
+
+## Notes
 This work was completed as part of a scientific research collaboration.
 
 Full source code and datasets are not publicly available.
